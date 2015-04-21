@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tab background color for the SELECTED tab state -->
+    <item>
+        <shape>
+            <solid android:color="#FF9999"/>
+        </shape>
+    </item>
+   
+</layer-list>

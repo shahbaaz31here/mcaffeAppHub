@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Tab background color for the SELECTED tab state -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/>
+        </shape>
+    </item>
+    <!-- Bottom indicator color for the SELECTED tab state -->
+    <item  android:left="-20dp" android:right="-20dp">
+        <shape android:shape="rectangle">
+            <stroke android:color="#E2E2E2" android:width="2dp"/>
+        </shape>
+    </item>
+</layer-list>

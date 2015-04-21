@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    >
+
+    <ProgressBar
+        android:id="@+id/loadingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+        android:layout_marginTop="45dp"
+       android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        />
+<!--  android:indeterminateDrawable="@drawable/custom_loading_bar" -->
+
+
+    <!--
+         -->
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+        android:id="@+id/prodList"
+        android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:layout_weight="1"
+         android:cacheColorHint="#00000000"
+ 		android:listSelector="#00000000" 
+ 		android:divider="@android:color/transparent"
+            android:background="#ffffff"
+ 		 >
+    </ListView>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom"
+            android:weightSum="1.0">
+
+            <TextView
+                android:id="@+id/sortBy"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1.0"
+
+                android:layout_gravity="center_horizontal|bottom"
+                android:textSize="20dp"
+                android:paddingLeft="120dp"
+               android:paddingTop="10dp"
+
+                android:paddingBottom="15dp"
+                android:paddingRight="20dp"
+                android:background="#AA000000"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sort Products"
+                android:drawablePadding="15dp"
+
+               />
+            	
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

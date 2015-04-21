@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mcaffeprods.MainActivity" 
+    >
+
+    <item
+        android:id="@+id/pLToH"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Price-Low to High"/>
+    <item
+        android:id="@+id/pHToL"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Price-High to Low"/>
+    <item
+        android:id="@+id/rMintoMax"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Rating-Min to Max"/>
+    <item
+        android:id="@+id/rMaxToMin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Rating-Max to Min"/>
+
+</menu>
